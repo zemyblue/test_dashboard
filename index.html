@@ -1,1 +1,52 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/finschia_symbol.svg"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Finschia localnet dashboard page"/><link rel="manifest" href="/manifest.json"/><title>Finschia localnet</title><script defer="defer" src="/static/js/main.a55aac7d.js"></script><link href="/static/css/main.33e12777.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosi vault example</title>
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="./index_files/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./index_files/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./index_files/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script defer="" src="./index_files/bundle.js"></script></head>
+  <body>
+    <div id="app">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col p-5">
+            <img src="./index_files/dosivault-logo.png" alt="" style="max-width: 350px; margin: auto; display: block">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Send Coin</div>
+          <div class="card-body">
+            <b>Address:</b>
+            <div id="address"></div>
+            <form name="sendForm">
+              <div class="form-group">
+                <label for="recipient">Recipient</label>
+                <input class="form-control" id="recipient" name="recipient">
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount</label>
+                <div class="input-group">
+                  <input class="form-control" id="amount" name="amount">
+                  <div class="input-group-append">
+                    <div class="input-group-text">finschia</div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary" id="Broadcast-with-finschia-js">
+                Broadcast with finschia-js
+              </button>
+              <button type="button" class="btn btn-primary" id="Broadcast-with-dosivault">
+                Broadcast with dosi vault
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
